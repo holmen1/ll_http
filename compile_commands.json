@@ -1,0 +1,82 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c99",
+      "-Wall",
+      "-Wextra",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "obj/common.o",
+      "src/common.c"
+    ],
+    "directory": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver",
+    "file": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver/src/common.c",
+    "output": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver/obj/common.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c99",
+      "-Wall",
+      "-Wextra",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "obj/http.o",
+      "src/http.c"
+    ],
+    "directory": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver",
+    "file": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver/src/http.c",
+    "output": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver/obj/http.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c99",
+      "-Wall",
+      "-Wextra",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "obj/main.o",
+      "src/main.c"
+    ],
+    "directory": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver",
+    "file": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver/src/main.c",
+    "output": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver/obj/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c99",
+      "-Wall",
+      "-Wextra",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "obj/route.o",
+      "src/route.c"
+    ],
+    "directory": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver",
+    "file": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver/src/route.c",
+    "output": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver/obj/route.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c99",
+      "-Wall",
+      "-Wextra",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "obj/tcp.o",
+      "src/tcp.c"
+    ],
+    "directory": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver",
+    "file": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver/src/tcp.c",
+    "output": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver/obj/tcp.o"
+  }
+]
