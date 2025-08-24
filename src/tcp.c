@@ -1,5 +1,4 @@
 #include "tcp.h"
-#include "common.h"
 #include <stdio.h>
 #include <string.h>
 
@@ -39,7 +38,7 @@ int accept_client(int server_fd) {
   int client_fd =
       accept(server_fd, (struct sockaddr *)&client_address, &client_len);
   if (client_fd < 0) {
-    debug_log("Accept failed");
+    fprintf(stderr, "Accept failed\n");
     return -1;
   }
 
