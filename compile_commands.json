@@ -11,9 +11,9 @@
       "obj/common.o",
       "src/common.c"
     ],
-    "directory": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver",
-    "file": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver/src/common.c",
-    "output": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver/obj/common.o"
+    "directory": "/home/holmen1/repos/ll_http",
+    "file": "/home/holmen1/repos/ll_http/src/common.c",
+    "output": "/home/holmen1/repos/ll_http/obj/common.o"
   },
   {
     "arguments": [
@@ -27,9 +27,9 @@
       "obj/http.o",
       "src/http.c"
     ],
-    "directory": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver",
-    "file": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver/src/http.c",
-    "output": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver/obj/http.o"
+    "directory": "/home/holmen1/repos/ll_http",
+    "file": "/home/holmen1/repos/ll_http/src/http.c",
+    "output": "/home/holmen1/repos/ll_http/obj/http.o"
   },
   {
     "arguments": [
@@ -43,9 +43,9 @@
       "obj/main.o",
       "src/main.c"
     ],
-    "directory": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver",
-    "file": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver/src/main.c",
-    "output": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver/obj/main.o"
+    "directory": "/home/holmen1/repos/ll_http",
+    "file": "/home/holmen1/repos/ll_http/src/main.c",
+    "output": "/home/holmen1/repos/ll_http/obj/main.o"
   },
   {
     "arguments": [
@@ -59,9 +59,9 @@
       "obj/route.o",
       "src/route.c"
     ],
-    "directory": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver",
-    "file": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver/src/route.c",
-    "output": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver/obj/route.o"
+    "directory": "/home/holmen1/repos/ll_http",
+    "file": "/home/holmen1/repos/ll_http/src/route.c",
+    "output": "/home/holmen1/repos/ll_http/obj/route.o"
   },
   {
     "arguments": [
@@ -75,8 +75,8 @@
       "obj/tcp.o",
       "src/tcp.c"
     ],
-    "directory": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver",
-    "file": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver/src/tcp.c",
-    "output": "/home/holmen1/repos/c-programming-language/LowLevelAcademy/httpserver/obj/tcp.o"
+    "directory": "/home/holmen1/repos/ll_http",
+    "file": "/home/holmen1/repos/ll_http/src/tcp.c",
+    "output": "/home/holmen1/repos/ll_http/obj/tcp.o"
   }
 ]
