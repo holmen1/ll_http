@@ -1,10 +1,6 @@
 #include "main.h"
 #include "tcp.h"
 
-void debug_log(const char *message) {
-    fprintf(stderr, "DEBUG: %s\n", message);
-}
-
 int main() {
     tcp_server server = {0};
     server_status_e status = bind_tcp_port(&server, 8080);
