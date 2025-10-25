@@ -1,12 +1,11 @@
+#include "main.h"
 #include "tcp.h"
-#include <stdio.h>
-#include <string.h>
 
 server_status_e bind_tcp_port(tcp_server *server, int port) {
   memset(server, 0, sizeof(*server));
   server->socket_fd = socket(AF_INET, SOCK_STREAM, 0);
   if (server->socket_fd == -1) {
-    fprintf(stderr, "Socket creation failed\n");
+    debug_log("Socket creation failed");
     return SERVER_SOCKET_ERROR;
   }
 
@@ -16,18 +15,18 @@ server_status_e bind_tcp_port(tcp_server *server, int port) {
 
   if (bind(server->socket_fd, (struct sockaddr *)&server->address,
            sizeof(server->address)) < 0) {
-    fprintf(stderr, "Bind failed\n");
+    debug_log("Bind failed");
     close(server->socket_fd);
     return SERVER_BIND_ERROR;
   }
 
   if (listen(server->socket_fd, 5) < 0) {
-    fprintf(stderr, "Listen failed\n");
+    debug_log("Listen failed");
     close(server->socket_fd);
     return SERVER_LISTEN_ERROR;
   }
 
-  fprintf(stdout, "Server bound and listening on port %d\n", port);
+  debug_log("Server bound and listening");
   return SERVER_OK;
 }
 
@@ -38,7 +37,7 @@ int accept_client(int server_fd) {
   int client_fd =
       accept(server_fd, (struct sockaddr *)&client_address, &client_len);
   if (client_fd < 0) {
-    fprintf(stderr, "Accept failed\n");
+    debug_log("Accept failed");
     return -1;
   }
 
