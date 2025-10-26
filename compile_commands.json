@@ -1,0 +1,18 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c99",
+      "-Wall",
+      "-Wextra",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "obj/main.o",
+      "src/main.c"
+    ],
+    "directory": "/home/holmen1/repos/ll_http",
+    "file": "/home/holmen1/repos/ll_http/src/main.c",
+    "output": "/home/holmen1/repos/ll_http/obj/main.o"
+  }
+]
